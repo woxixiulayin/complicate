@@ -2,8 +2,8 @@
 #include "foo.h"
 
 
-void foo(void)
+void foo(int value)
 {
-	printf("this is foo()!\n");
+	printf("%s, this is foo()!\n", HELLO);
 }
 
